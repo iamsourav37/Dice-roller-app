@@ -114,6 +114,7 @@ class _HomePageState extends State<HomePage> {
                     "Roll the dice!",
                     style: TextStyle(
                       fontSize: 25.0,
+                      color: Colors.black87,
                     ),
                   ),
                 ),

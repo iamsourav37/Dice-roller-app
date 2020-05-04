@@ -8,9 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Dice roller app",
-      theme: ThemeData(
-        primarySwatch: Colors.yellow,
-       ),
+      theme: ThemeData.dark(),
        debugShowCheckedModeBanner: false,
        home: HomePage(),
     );
